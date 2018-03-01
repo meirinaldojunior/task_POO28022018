@@ -11,16 +11,13 @@ package task_poo28022018;
  */
 public class Computador {
     
-    private String modelo;
-    private String processador;
-    private String fabricante;
-    private int    memoria;
+    String modelo;
+    String processador;
+    String fabricante;
+    int    memoria;
 
-    public Computador(String modelo, String processador, String fabricante, int memoria) {
-        this.modelo = modelo;
-        this.processador = processador;
-        this.fabricante = fabricante;
-        this.memoria = memoria;
+    Computador() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getModelo() {

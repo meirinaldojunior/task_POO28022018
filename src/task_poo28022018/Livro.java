@@ -11,17 +11,15 @@ package task_poo28022018;
  */
 public class Livro {
     
-    private String nome;
-    private String editora;
-    private String escritor;
-    private int    anoPub;
+    String nome;
+    String editora;
+    String escritor;
+    int    anoPub;
 
-    public Livro(String nome, String editora, String escritor, int anoPub) {
-        this.nome = nome;
-        this.editora = editora;
-        this.escritor = escritor;
-        this.anoPub = anoPub;
+    Livro(){
+        
     }
+    
 
     public String getNome() {
         return nome;

@@ -13,13 +13,6 @@ public class Aluno extends Pessoa{
     
     private int matricula;
 
-    public Aluno(int matricula, String nome, String cpf, int idade) {
-        this.matricula = matricula;
-        this.nome      = nome;
-        this.cpf       = cpf;
-        this.idade     = idade; 
-    }
-
     Aluno() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

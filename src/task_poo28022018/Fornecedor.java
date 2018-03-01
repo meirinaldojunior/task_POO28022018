@@ -13,12 +13,9 @@ public class Fornecedor extends Pessoa{
     
     
     private int codSetor;
-
-    public Fornecedor(String nome, String cpf, int idade, int codSetor) {
-        this.nome = nome;
-        this.cpf = cpf;
-        this.idade = idade;
-        this.codSetor = codSetor;
+    
+    Fornecedor(){
+        
     }
 
     public String getNome() {

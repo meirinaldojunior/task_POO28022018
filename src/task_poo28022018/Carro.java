@@ -15,10 +15,8 @@ public class Carro {
     String fabricante;
     int    ano;
 
-    public Carro(String modelo, String fabricante, int ano) {
-        this.modelo = modelo;
-        this.fabricante = fabricante;
-        this.ano = ano;
+    Carro() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getModelo() {
