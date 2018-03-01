@@ -28,12 +28,14 @@ public class Task_POO28022018 {
         
         //========= CARROS ==========//
         Carro carro      = new Carro();
-        carro.modelo     = "Corola";
+        carro.carro      = "Corolla";
+        carro.modelo     = "Sedan";
         carro.fabricante = "Toyota";
         carro.ano        = 2018;
         
         Carro carro2      = new Carro();
-        carro2.modelo     = "Sw4";
+        carro2.carro      = "Sw4";
+        carro2.modelo     = "Sedan";
         carro2.fabricante = "Toyota";
         carro2.ano        = 2018;
         

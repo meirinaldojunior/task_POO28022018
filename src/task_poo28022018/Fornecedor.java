@@ -50,6 +50,8 @@ public class Fornecedor extends Pessoa{
         this.codSetor = codSetor;
     }
     
-    
+    public void contrataFornecedor(Fornecedor fornecedor){
+        System.out.println("Fornecedor contratado: "+fornecedor.nome);
+    }
     
 }

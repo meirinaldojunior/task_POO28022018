@@ -52,6 +52,8 @@ public class Computador {
         this.memoria = memoria;
     }
     
-    
+    public void compraComputador(Computador computador){
+        System.out.println("Computador comprado: "+computador.fabricante);
+    }
     
 }

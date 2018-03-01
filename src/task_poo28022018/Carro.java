@@ -11,6 +11,7 @@ package task_poo28022018;
  */
 public class Carro {
     
+    String carro;
     String modelo;
     String fabricante;
     int    ano;
@@ -19,6 +20,10 @@ public class Carro {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    public String getCarro(){
+        return carro;
+    }
+    
     public String getModelo() {
         return modelo;
     }
@@ -41,6 +46,15 @@ public class Carro {
 
     public void setAno(int ano) {
         this.ano = ano;
+    }
+    
+    public void setCarro(String carro){
+        this.carro = carro;
+    }
+    
+    public boolean compraCarro(Carro carro){
+        System.out.println("Carro comprado"+carro.carro);
+        return true;
     }
     
     

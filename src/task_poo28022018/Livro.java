@@ -53,5 +53,9 @@ public class Livro {
         this.anoPub = anoPub;
     }
     
+    public void compraLivro(Livro livro){
+        System.out.println("Livro comprado: "+livro.nome);
+    }
+    
     
 }
