@@ -14,7 +14,7 @@ public class Aluno extends Pessoa{
     private int matricula;
 
     Aluno() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     public int getMatricula() {
