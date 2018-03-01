@@ -52,8 +52,10 @@ public class Carro {
         this.carro = carro;
     }
     
-    public void compraCarro(Carro carro){
-        System.out.println("Carro comprado"+carro.carro);
+    public void imprimeCarro(Carro carro){
+        System.out.println("================================");
+        System.out.println("Carro Cadastrado: "+carro.carro);
+        System.out.println("Modelo do carro: "+carro.modelo);
     }
     
     

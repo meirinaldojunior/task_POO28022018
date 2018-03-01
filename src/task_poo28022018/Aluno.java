@@ -25,8 +25,8 @@ public class Aluno extends Pessoa{
         this.matricula = matricula;
     } 
     
-    public void matriculaAluno(Aluno aluno){
-        
+    public void imprimeAluno(Aluno aluno){
+        System.out.println("================================");
         System.out.println("Aluno cadastrado: "+aluno.nome);
         System.out.println("Matrícula do aluno cadastrado"+aluno.cpf);
         

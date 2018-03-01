@@ -50,8 +50,11 @@ public class Fornecedor extends Pessoa{
         this.codSetor = codSetor;
     }
     
-    public void contrataFornecedor(Fornecedor fornecedor){
-        System.out.println("Fornecedor contratado: "+fornecedor.nome);
+    public void imprimeFornecedor(Fornecedor fornecedor){
+        System.out.println("================================");
+        System.out.println("Fornecedor: "+fornecedor.nome);
+        System.out.println("CPF: "+fornecedor.cpf);
+        System.out.println("Idade: "+fornecedor.idade);
     }
     
 }

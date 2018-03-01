@@ -53,8 +53,11 @@ public class Livro {
         this.anoPub = anoPub;
     }
     
-    public void compraLivro(Livro livro){
-        System.out.println("Livro comprado: "+livro.nome);
+    public void imprimeLivro(Livro livro){
+        System.out.println("================================");
+        System.out.println("Livro: "+livro.nome);
+        System.out.println("Escritor: "+livro.escritor);
+        System.out.println("Ano Publivação: "+livro.anoPub);
     }
     
     
