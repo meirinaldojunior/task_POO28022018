@@ -15,7 +15,21 @@ public class Task_POO28022018 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //========= ALUNOS =========//
+        Aluno aluno = new Aluno();
+        aluno.nome  = "Junior";
+        aluno.idade = 21;
+        aluno.cpf   = "123321123312";
+        
+        Aluno aluno2 = new Aluno();
+        aluno2.nome  = "Meirinaldo";
+        aluno2.idade = 21;
+        aluno2.cpf   = "123123123";
+        
+        //========= CARRO ==========//
+        Carro carro = new Carro();
+        carro
+          
     }
     
 }
