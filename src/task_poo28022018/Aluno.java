@@ -25,12 +25,11 @@ public class Aluno extends Pessoa{
         this.matricula = matricula;
     } 
     
-    public boolean matriculaAluno(Aluno aluno){
+    public void matriculaAluno(Aluno aluno){
         
         System.out.println("Aluno cadastrado: "+aluno.nome);
         System.out.println("Matrícula do aluno cadastrado"+aluno.cpf);
         
-        return true;
     }
     
 }

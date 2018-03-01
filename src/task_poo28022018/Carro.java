@@ -52,9 +52,8 @@ public class Carro {
         this.carro = carro;
     }
     
-    public boolean compraCarro(Carro carro){
+    public void compraCarro(Carro carro){
         System.out.println("Carro comprado"+carro.carro);
-        return true;
     }
     
     
