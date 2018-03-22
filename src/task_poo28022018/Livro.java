@@ -11,16 +11,15 @@ package task_poo28022018;
  */
 public class Livro {
     
-    String nome;
-    String editora;
-    String escritor;
-    int    anoPub;
+    private String nome;
+    private String editora;
+    private String escritor;
+    private int    anoPub;
 
     Livro(){
         
     }
     
-
     public String getNome() {
         return nome;
     }
@@ -55,9 +54,9 @@ public class Livro {
     
     public void imprimeLivro(Livro livro){
         System.out.println("================================");
-        System.out.println("Livro: "+livro.nome);
-        System.out.println("Escritor: "+livro.escritor);
-        System.out.println("Ano Publivação: "+livro.anoPub);
+        System.out.println("Livro: "+getNome());
+        System.out.println("Escritor: "+getEscritor());
+        System.out.println("Ano Publivação: "+getAnoPub());
     }
     
     

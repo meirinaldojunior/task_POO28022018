@@ -11,9 +11,9 @@ package task_poo28022018;
  */
 public class Pessoa {
     
-    String nome;
-    String cpf;
-    int    idade;
+    private String nome;
+    private String cpf;
+    private int    idade;
 
     public String getNome() {
         return nome;
@@ -22,6 +22,10 @@ public class Pessoa {
     public String getCpf() {
         return cpf;
     }
+    
+    public int getIdade(){
+        return idade;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -29,6 +33,10 @@ public class Pessoa {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+    
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
     
     

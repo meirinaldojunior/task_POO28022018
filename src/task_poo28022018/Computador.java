@@ -11,10 +11,10 @@ package task_poo28022018;
  */
 public class Computador {
     
-    String modelo;
-    String processador;
-    String fabricante;
-    int    memoria;
+    private String modelo;
+    private String processador;
+    private String fabricante;
+    private int    memoria;
 
     Computador() {
         
@@ -54,9 +54,9 @@ public class Computador {
     
     public void imprimeComputador(Computador computador){
         System.out.println("================================");
-        System.out.println("Computador: "+computador.fabricante);
-        System.out.println("Modelo: "+computador.modelo);
-        System.out.println("Processador: "+computador.processador);
+        System.out.println("Computador: "+getFabricante());
+        System.out.println("Modelo: "+getModelo());
+        System.out.println("Processador: "+getProcessador());
     }
     
 }

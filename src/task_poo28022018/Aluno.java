@@ -13,8 +13,7 @@ public class Aluno extends Pessoa{
     
     private int matricula;
 
-    Aluno() {
-        
+    Aluno() {   
     }
 
     public int getMatricula() {
@@ -27,8 +26,8 @@ public class Aluno extends Pessoa{
     
     public void imprimeAluno(Aluno aluno){
         System.out.println("================================");
-        System.out.println("Aluno cadastrado: "+aluno.nome);
-        System.out.println("Matrícula do aluno cadastrado"+aluno.cpf);
+        System.out.println("Aluno cadastrado: "+aluno.getNome());
+        System.out.println("Matrícula do aluno cadastrado"+aluno.getCpf());
         
     }
     

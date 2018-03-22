@@ -17,73 +17,73 @@ public class Task_POO28022018 {
     public static void main(String[] args) {
         //========= ALUNOS =========//
         Aluno aluno = new Aluno();
-        aluno.nome  = "Junior";
-        aluno.idade = 21;
-        aluno.cpf   = "123321123312";
+        aluno.setNome("Junior");
+        aluno.setIdade(21);
+        aluno.setCpf("123321123312");
         aluno.imprimeAluno(aluno);
         
         Aluno aluno2 = new Aluno();
-        aluno2.nome  = "Meirinaldo";
-        aluno2.idade = 21;
-        aluno2.cpf   = "123123123";
+        aluno2.setNome("Meirinaldo");
+        aluno2.setIdade(21);
+        aluno2.setCpf("123123123");
         aluno2.imprimeAluno(aluno2);
         
         //========= CARROS ==========//
         Carro carro      = new Carro();
-        carro.carro      = "Corolla";
-        carro.modelo     = "Sedan";
-        carro.fabricante = "Toyota";
-        carro.ano        = 2018;
+        carro.setCarro("Corolla");
+        carro.setModelo("Sedan");
+        carro.setFabricante("Toyota");
+        carro.setAno(2018);
         carro.imprimeCarro(carro);
         
         Carro carro2      = new Carro();
-        carro2.carro      = "Sw4";
-        carro2.modelo     = "Sedan";
-        carro2.fabricante = "Toyota";
-        carro2.ano        = 2018;
+        carro2.setCarro("Sw4");
+        carro2.setModelo("Sedan");
+        carro2.setFabricante("Toyota");
+        carro2.setAno(2018);
         carro2.imprimeCarro(carro2);
         
         //========= COMPUTADORES =======//
         Computador computador  = new Computador();
-        computador.fabricante  = "Apple";
-        computador.memoria     = 8;
-        computador.modelo      = "MacBook Pro 2017";
-        computador.processador = "Core i7";
+        computador.setFabricante("Apple");
+        computador.setMemoria(8);
+        computador.setModelo("MacBook Pro 2017");
+        computador.setProcessador("Core i7");
         computador.imprimeComputador(computador);
-        
+
         Computador computador2  = new Computador();
-        computador2.fabricante  = "Dell";
-        computador2.memoria     = 16;
-        computador2.modelo      = "Inpiron";
-        computador2.processador = "Core i7";
+        computador2.setFabricante("Dell");
+        computador2.setMemoria(16);
+        computador2.setModelo("Inpiron");
+        computador2.setProcessador("Core i7");
         computador2.imprimeComputador(computador2);
         
         //======== FORNECEDORES =======//
         Fornecedor fornecedor = new Fornecedor();
-        fornecedor.nome   = "José";
-        fornecedor.idade  = 21;
-        fornecedor.cpf    = "1234543345";
+        fornecedor.setNome("José");
+        fornecedor.setIdade(21);
+        fornecedor.setCpf("1234543345");
         computador.imprimeComputador(computador);
         
         Fornecedor fornecedor2 = new Fornecedor();
-        fornecedor2.nome  = "Maria";
-        fornecedor2.idade = 30;
-        fornecedor2.cpf   = "12343123123";
-        computador2.imprimeComputador(computador2);
+        fornecedor2.setNome("Maria");
+        fornecedor2.setIdade(30);
+        fornecedor2.setCpf("12343123123");
+        fornecedor.imprimeFornecedor(fornecedor2);
         
         //======== LIVROS ===========//   
         Livro livro = new Livro();
-        livro.nome        = "Java 8";
-        livro.editora     = "Casa do Código";
-        livro.escritor    = "Seu Zé";
-        livro.anoPub      = 2017;
+        livro.setNome("Java 8");
+        livro.setEscritor("Casa do Código");
+        livro.setEscritor("Seu Zé");
+        livro.setAnoPub(2017);
         livro.imprimeLivro(livro);
         
         Livro livro2 = new Livro();
-        livro2.nome       = "Micros serviços com Node.js";
-        livro2.editora    = "Novatec";
-        livro2.escritor   = "Fictício";
-        livro2.anoPub     = 2018;
+        livro2.setNome("Micros serviços com Node.js");
+        livro2.setEditora("Novatec");
+        livro2.setEscritor("Fictício");
+        livro2.setAnoPub(2018);
         livro2.imprimeLivro(livro);
           
     }

@@ -11,10 +11,10 @@ package task_poo28022018;
  */
 public class Carro {
     
-    String carro;
-    String modelo;
-    String fabricante;
-    int    ano;
+    private String carro;
+    private String modelo;
+    private String fabricante;
+    private int    ano;
 
     Carro() {
         

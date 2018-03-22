@@ -18,32 +18,8 @@ public class Fornecedor extends Pessoa{
         
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
     public int getCodSetor() {
         return codSetor;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
     }
 
     public void setCodSetor(int codSetor) {
@@ -52,9 +28,10 @@ public class Fornecedor extends Pessoa{
     
     public void imprimeFornecedor(Fornecedor fornecedor){
         System.out.println("================================");
-        System.out.println("Fornecedor: "+fornecedor.nome);
-        System.out.println("CPF: "+fornecedor.cpf);
-        System.out.println("Idade: "+fornecedor.idade);
+        System.out.println("Fornecedor: "+fornecedor.getNome());
+        System.out.println("CPF: "+fornecedor.getCpf());
+        System.out.println("COD Setor: "+fornecedor.getCodSetor());
+        System.out.println("Idade: "+fornecedor.getIdade());
     }
     
 }
